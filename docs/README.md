@@ -1,0 +1,1 @@
+### for KCPSM6 documentation, see https://github.com/keyboardpartner/HX3.6-3.7-Scan-Drivers repository.
