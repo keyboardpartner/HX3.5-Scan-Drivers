@@ -2,9 +2,9 @@
 
 ![HX3.7 Pic](https://github.com/keyboardpartner/HX3-Scan-Drivers/blob/main/docs/mainboard37_kl.JPG)
 
-### Scan drivers for PicoBlaze Core in HX3 Sound Engine (FPGA)
+### Scan drivers for PicoBlaze Core in HX3.5 Sound Engine (FPGA)
 
-These are different scan driver sources for HX3.6 and HX3.7 mainboards, to be compiled with PicoBlaze Assembler KCPSM6 from Ken Chapman.
+These are older scan driver sources for HX3.5 mainboards, to be compiled with PicoBlaze Assembler KCPSM6 from Ken Chapman.
 
 Repository contains KCPSM6 and HEX converter for creation of *scan.dat* files; use batch files to execute.
 
@@ -13,10 +13,6 @@ Schematics to be found on http://updates.keyboardpartner.de/Files/index.php?dir=
 TODO: Update XB2/XB5 scan driver to new framework.
 
 **Version Info:**
-* 27.01.2025 #51 Neues universelles Framework mit *includes*, gemeinsam für alle HX3 Scan Driver
-* 10.12.2025 #49 Support für neues FPGA mit separatem (dritten) SAM5504-MIDI-FIFO, MIDI GETBYTE gestrafft
-* 11.07.2025 #47 Neue Organisation der Tastenabfrage mit vertauschter Spalte/Reihe (4017/4024-Zähler) bei Fatar, deutlich schneller
-* 23.07.2024 #46 Bugfix: MIDI SEND ENABLES waren nicht implementiert, siehe "local_states_out"
 * 13.06.2024 #44 Differenzierter Key Click, etwas schwächer, #45 einstellbar on/off
 * 29.06.2022 #42 MIDI IN/GenTranspose jetzt für alle, KeyTranspose (Offset) nur MIDI OUT
 * 11.01.2022 #41 Extrem verbessertes Timing, 500µs Scan-Loop, einfacheres RAM-Handling
