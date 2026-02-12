@@ -6,6 +6,8 @@
 
 These are older scan driver sources for HX3.5 mainboards, to be compiled with PicoBlaze Assembler KCPSM6 from Ken Chapman.
 
+**Please note:** Scan drivers designed for HX3.6/3.7 are updated versions and will run on HX3.5 also. Please use the  [**HX3.6/3.7 scan drivers repository**](https://github.com/keyboardpartner/HX3.6-3.7-Scan-Drivers) for any new developments.
+
 Repository contains KCPSM6 and HEX converter for creation of *scan.dat* files; use batch files to execute.
 
 Schematics to be found on http://updates.keyboardpartner.de/Files/index.php?dir=Schematics
