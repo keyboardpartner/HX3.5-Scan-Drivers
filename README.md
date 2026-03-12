@@ -4,9 +4,11 @@
 
 ### Scan drivers for PicoBlaze Core in HX3.5 Sound Engine (FPGA)
 
+**Customer info:** Do not open! No user servicable parts inside. For HX3 updates, see our **[HX3 Update page](http://updates.keyboardpartner.de/Files/index.php)**.
+
 These are older scan driver sources for HX3.5 mainboards, to be compiled with PicoBlaze Assembler KCPSM6 from Ken Chapman.
 
-**Please note:** Scan drivers designed for HX3.6/3.7 are updated versions and will run on HX3.5 also. Please use the  [**HX3.6/3.7 scan drivers repository**](https://github.com/keyboardpartner/HX3.6-3.7-Scan-Drivers) for any new developments.
+**Please note:** Scan drivers designed for HX3.6/3.7 are updated versions and will run on HX3.5 also with new firmware. Please see the  [**HX3.6/3.7 scan drivers repository**](https://github.com/keyboardpartner/HX3.6-3.7-Scan-Drivers) for any new developments.
 
 Repository contains KCPSM6 and HEX converter for creation of *scan.dat* files; use batch files to execute.
 
